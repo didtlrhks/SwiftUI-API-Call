@@ -14,6 +14,7 @@
 		8E15C7F12B61260B001468C7 /* SwiftUI_API_Call___Working_with_JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15C7F02B61260B001468C7 /* SwiftUI_API_Call___Working_with_JSONTests.swift */; };
 		8E15C7FB2B61260B001468C7 /* SwiftUI_API_Call___Working_with_JSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15C7FA2B61260B001468C7 /* SwiftUI_API_Call___Working_with_JSONUITests.swift */; };
 		8E15C7FD2B61260B001468C7 /* SwiftUI_API_Call___Working_with_JSONUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15C7FC2B61260B001468C7 /* SwiftUI_API_Call___Working_with_JSONUITestsLaunchTests.swift */; };
+		8E15C80A2B612BD5001468C7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15C8092B612BD5001468C7 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8E15C7F62B61260B001468C7 /* SwiftUI API Call + Working with JSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI API Call + Working with JSONUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E15C7FA2B61260B001468C7 /* SwiftUI_API_Call___Working_with_JSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI_API_Call___Working_with_JSONUITests.swift"; sourceTree = "<group>"; };
 		8E15C7FC2B61260B001468C7 /* SwiftUI_API_Call___Working_with_JSONUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI_API_Call___Working_with_JSONUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		8E15C8092B612BD5001468C7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		8E15C7D22B612608001468C7 = {
 			isa = PBXGroup;
 			children = (
+				8E15C8092B612BD5001468C7 /* ViewModel.swift */,
 				8E15C7DD2B612608001468C7 /* SwiftUI API Call + Working with JSON */,
 				8E15C7EF2B61260B001468C7 /* SwiftUI API Call + Working with JSONTests */,
 				8E15C7F92B61260B001468C7 /* SwiftUI API Call + Working with JSONUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E15C7E12B612608001468C7 /* ContentView.swift in Sources */,
+				8E15C80A2B612BD5001468C7 /* ViewModel.swift in Sources */,
 				8E15C7DF2B612608001468C7 /* SwiftUI_API_Call___Working_with_JSONApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
